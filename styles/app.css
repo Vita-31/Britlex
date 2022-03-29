@@ -326,10 +326,15 @@ ul, li {
     gap: 0 18px;
 }
 
+.scills-right__bottom {
+    margin-top: 20px;
+}
+
 .scills-box {
     height: 100%;
     background-color: #F5F5F5;
     border-radius: 10px;
+    position: relative;
 }
 
 .scills-box__title {
@@ -352,14 +357,21 @@ ul, li {
 }
 
 .scills-speak {
-    padding: 35px 22px 95px;
     max-width: 435px;
-    width: 100%;
+    height: 895px;
+    padding: 0 45px;
 }
 
 .scills-speak__img {
     max-width: 390px;
     height: 390px;
+    position: absolute;
+    top: 35px;
+    left: 23px;
+}
+
+.scills-speak__title {
+    padding-top: 430px;
 }
 
 .scills-speak__btn {
@@ -375,31 +387,69 @@ ul, li {
 .scills-write {
     max-width: 435px;
     height: 532px;
-    padding: 0 19px 44px 41px;
+    padding: 0 45px;
+}
+
+.scills-read {
+    max-width: 435px;
+    height: 532px;
+    padding: 0 45px;
 }
 
 .scills-write__img {
     max-width: 293px;
     height: 293px;
+    position: absolute;
+    top: -4px;
+    right: 19px;
+}
+
+.scills-write__title {
+    padding-top: 251px;
+}
+
+.scills-read__title {
+    padding-top: 255px;
 }
 
 .scills-write__btn {
     margin-top: 33px;
 }
 
-.scills-read {
-    max-width: 435px;
-    height: 532px;
-    padding: 9px 42px 44px;
-}
-
 .scills-read__img {
     max-width: 371px;
     height: 247px;
+    position: absolute;
+    top: 9px;
+    left: 1px;
 }
 
 .scills-read__btn {
     margin-top: 35px;
+}
+
+.scills-listen {
+    max-width: 885px;
+    width: 100%;
+    height: 343px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 18px;
+}
+
+.scills-listen__img {
+    max-width: 382px;
+    width: 100%;
+    height: 255px;
+    padding-right: 25px;
+    padding-top: 44px;
+    padding-bottom: 44px;
+}
+
+.scills-box__content {
+    padding-left: 48px;
+    max-width: 400px;
 }
 /* scills end */
 
